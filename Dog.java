@@ -1,6 +1,6 @@
 import jvaa.util.*
 
-public class Dog {
+public class Dog implements Comparato {
 	public String name;
 	public int legs;
 
@@ -12,4 +12,3 @@ public class Dog {
 	public String toString(){
 		return this.name;
 	}
-}
