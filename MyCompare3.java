@@ -12,6 +12,7 @@ public class MyCompare3 {
 		dogs.add(new Dog("Fido", 3));
 		dogs.add(new Dog("Alfie", 4));
 
+		//prints unsorted list
 		System.out.println(dogs);
 		Collections.sort(dogs, new Comparator<Animal>(){
 			@Override
@@ -19,8 +20,12 @@ public class MyCompare3 {
 			    return a.getLegs() - b.getLegs();
 			}
 		});
+		
+		//prints Comparater sorted list
 		System.out.println(dogs);
+		
 		Collections.sort(dogs);
+		//prints Comparable sorted list
 		System.out.println(dogs);
 	}
 }
