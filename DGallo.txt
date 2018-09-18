@@ -1,0 +1,6 @@
+Below are my answers to questions 2 and 3 for Lab 3.
+
+2) The 5 objects in the main are the 3 dog instances, the arrayList of dogs, and the object passed into
+the comparator.sort that is also passed in with dogs.
+
+3) The comparator constructor call is the in the main. There is no class definition.
