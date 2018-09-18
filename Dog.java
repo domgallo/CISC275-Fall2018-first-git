@@ -1,14 +1,9 @@
-import jvaa.util.*
-
-public class Dog implements Comparato {
-	public String name;
-	public int legs;
+public class Dog extends Animal {
 
 	public Dog(String name, int legs) {
-		this.name = name;
-		this.legs = legs;
+		super(name,legs);
 	}
 
 	public String toString(){
-		return this.name;
+		return this.name + " has " + this.legs + " legs";
 	}
